@@ -18,9 +18,6 @@ on:
         description: 'SSH connection to Actions'
         required: true
         default: 'true'
-  push:
-    branches:
-    - master
  # schedule:
    # - cron: 0 8 * * 5
 
