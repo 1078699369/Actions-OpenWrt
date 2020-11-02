@@ -11,4 +11,8 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.2.251/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.251/g' package/base-files/files/bin/config_generate
+#京东签到
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  package/mine/luci-app-jd-dailybonus
+#京东签到1
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  package/lean/luci-app-jd-dailybonus
